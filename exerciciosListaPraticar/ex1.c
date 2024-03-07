@@ -14,7 +14,7 @@ int main(void){
     
 
     // definindo variavel que ira adicionar o 10% para cada filho
-    double multiplicador = 1 + (numeroFilhos / 10);
+    double multiplicador = 1 + (numeroFilhos / 10.0);
     // definindo o valor total do salario
     double valorDoSalario = horasTrabalhadas * valorPorHora * multiplicador;
     // mostrando na tela o resultado
