@@ -9,7 +9,11 @@
 
 
 
-void inverte(int tamanho, int iteracao, int *fonte, int *dest){
+void inverte(int tamanho, int iteracao, int *fonte, int *dest){\
+    /**
+     * recebe o tamanho, qual iteracao esta, o vetor fonte e vetor destino
+     * e ao final da execucao dest = fonte ^ -1
+    */
     if(tamanho == 0){
         dest[iteracao] = fonte[0];
     }
